@@ -102,6 +102,9 @@ p{
 .laptopone h1{
     margin-bottom: 0;
 }
+.laptopone p{
+    padding-bottom: 10px;
+}
 
 .pricebutton{
     font-family: 'Roboto', sans-serif;
@@ -141,11 +144,12 @@ p{
 .laptoptwo h3{
     font-size: 30px;
     font-weight:bolder;
-    padding-top: 180px;
+    padding-top: 0px;
 }
 
 .laptoptwo p{
     font-size: 16px;
+    padding-bottom: 10px;
 }
 
 .laptoptwo .half-width .textzone{
@@ -193,7 +197,7 @@ p{
 
 .texts img{
     padding-left: 5px;
-    width: 295px;
+    width: 286px;
     height: 160px;
     margin-bottom: 2px;
     padding-bottom: 2px;
@@ -218,7 +222,7 @@ p{
 }
 
 
-.section-4{
+.final{
     background-image: url("images/Group_33094_1.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -230,7 +234,7 @@ p{
     
 }
 
-.section-4-div-text{
+.finaltext{
     
     width: 45%;
     height:  80px;
@@ -240,7 +244,7 @@ p{
     padding-top: 1%;
 }
 
-.section-4-div-button{
+.finalbutton{
     width: 45%;
     height: 80px;
     float: left;
@@ -248,7 +252,7 @@ p{
     margin-left: 3%;
 }
 
-.lets-chat-button{
+.specialbutton{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     background-color: #FF8367;
@@ -259,7 +263,7 @@ p{
     margin-left: 50%;
 }
 
-.WORK-INQUIRY{
+.workinquiry{
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
     font-weight: 300;
