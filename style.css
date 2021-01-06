@@ -308,3 +308,26 @@ footer p{
     height: 30px;
     padding-right: 20px;
 }
+
+.awards{
+    background-color: rgb(241, 239, 239);
+}
+.awards h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.achievelist{
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    color: #363958;
+    padding-left: 150px;
+}
+
+.dontcare{
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+    color: #363958;
+}
