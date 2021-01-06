@@ -60,6 +60,9 @@ section{
     background-size:0mm ;
     margin-bottom: 10px;
 }
+.bottombanner h2{
+    padding-top: 8px;
+}
 h2{
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
@@ -86,7 +89,7 @@ p{
     float: left;
 }
 
-.laptopone img{
+.firstpart img{
     height: 80%;
     width: 80%;
     size: 80%;
@@ -99,10 +102,10 @@ p{
     padding-left: 150px;
     padding-top: 100px;
 }
-.laptopone h1{
+.firstpart h1{
     margin-bottom: 0;
 }
-.laptopone p{
+.firstpart p{
     padding-bottom: 10px;
 }
 
@@ -118,21 +121,21 @@ p{
     color: aliceblue;
     font-weight: 900;
 }
-.laptopone .half-width .textzone{
+.firstpart .half-width .textzone{
     margin-left: 200px;
     padding-left: 350px;
     padding-top: 300px;
     margin-top: 200px;
 }
 
-.laptoptwo{
+.secondpart{
     height: 600px;
     padding-bottom: 5px;
 }
-.laptoptwo .half-width{
+.secondpart .half-width{
     padding-left: 100px;
 }
-.laptoptwo img{
+.secondpart img{
     padding-left: 150px;
     height: 100%;
     width: 100%;
@@ -141,22 +144,22 @@ p{
     padding-right: 0px;
     padding-top: -400px;
 }
-.laptoptwo h3{
+.secondpart h3{
     font-size: 30px;
     font-weight:bolder;
     padding-top: 0px;
 }
 
-.laptoptwo p{
+.secondpart p{
     font-size: 16px;
     padding-bottom: 10px;
 }
 
-.laptoptwo .half-width .textzone{
+.secondpart .half-width .textzone{
     padding-left: 200px;
     text-shadow: brown;
 }
-.comparison{
+.worksdone{
     margin-top: 200px;
     margin-bottom: 200px;
     padding-left: 50px;
@@ -164,17 +167,17 @@ p{
     background-color: rgb(233, 232, 232);
 }
 
-.comparison h2{
+.worksdone h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
     font-weight: 300;
 }
-.comparison h3{
+.worksdone h3{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 800;
 }
-.comparison .half-width{
+.worksdone .half-width{
     padding-left: 0px;
     padding-right: 65px;
     margin-right: 35px;
@@ -207,14 +210,14 @@ p{
     margin-top: 10px;
     padding-left: 100px;
 }
-#vivobook{
-    border-left: 6px solid;
+#horsinaround{
+    border-left: 10px solid;
     border-image: linear-gradiaent(180deg, lightsalmon, tomato) ;
     border-image-slice: 1;
     border-left-style:groove ;
 }
 
-#zenbook{
+#secretariat{
     border-left: 8px solid;
     border-image: linear-gradiaent(180deg, rgb(118, 126, 202), rgb(30, 87, 161)) ;
     border-image-slice: 1;
