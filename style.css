@@ -1,81 +1,306 @@
-body{
-    margin: 10;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
+/*Navigation bar*/
 
-p{
-    font-size: 20px;
+.topnav {
+    overflow: hidden;
+    text-align: right;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    font-family: 'Bebas Neue', cursive;;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  
+  .topnav a:hover {
+    color: #FF8367;
+    pointer-events: stroke;
+  }
+
+/*Navigation bar complete*/
+
+body{
+    font-family: 'Amatic SC', cursive;
 }
 h1{
-    font-size: 70px;
-    font-weight: 100;
-    padding-bottom: 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 0.9;
 }
 h2{
-    font-size: 40px;
-}
-.orange-highlight{
-    color: rgba(40, 224, 15, 0.603);
-}
-.topnav {
-  background-color: rgb(250, 250, 250);
-  overflow: hidden;
-  text-align: right;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: right;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  color: rgba(97, 226, 21, 0.993);
-  pointer-events: stroke;
+    font-size: 60px;
 }
 section{
-    padding-bottom: 100px;
+    display: block;
     height: 500px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
-/* Add a color to the active/current link */
+.topbanner{
+    text-align: center;
+    height:180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:0mm ;
+    background-color: rgba(223, 46, 15, 0.24);
+    margin-bottom: 20px;
+}
+.bottombanner{
+    text-align: center;
+    height:100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:0mm ;
+    margin-bottom: 10px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
 
+h3{
+    color: #363958;
+    font-size: 30px;
+    font-weight:bolder;
+    font-family: 'Bebas Neue', cursive;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.colortext{
+    color: #FF8367;
+}
 .half-width{
-    padding-top: 50px;
     width: 40%;
-    float:left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
-.half-width img{
-    width: 90%;
-    height: 200%;
+    margin-left: 10px;
+    padding: 5px;
+    float: left;
 }
 
-.dream-area .half-width h2{
-    padding-top: 50px;
+.laptopone img{
+    height: 80%;
+    width: 80%;
+    size: 80%;
+    padding-left: 100px;
+    padding-top: 0px;
+}
+.textzone {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.laptopone h1{
+    margin-bottom: 0;
 }
 
-.dream-area .half-width p{
-    padding-top: 30px;
-    padding-bottom: 50px;
-}
-
-.top-banner .half-width p{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.link-button{
+.pricebutton{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
     text-decoration: none;
-    background-image: linear-gradient(rgb(56, 170, 56),green);
-    margin-top: 50px;
-    padding: 12px 50px;
-    color: white;
-    font-size : 20px;
+    margin-top: 30px;
+    background-color: #FF8367;
+    padding: 12px 30px;
     border-radius: 10px;
+    color: aliceblue;
+    font-weight: 900;
+}
+.laptopone .half-width .textzone{
+    margin-left: 200px;
+    padding-left: 350px;
+    padding-top: 300px;
+    margin-top: 200px;
+}
+
+.laptoptwo{
+    height: 600px;
+    padding-bottom: 5px;
+}
+.laptoptwo .half-width{
+    padding-left: 100px;
+}
+.laptoptwo img{
+    padding-left: 150px;
+    height: 100%;
+    width: 100%;
+    size: 120%;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: -400px;
+}
+.laptoptwo h3{
+    font-size: 30px;
+    font-weight:bolder;
+    padding-top: 180px;
+}
+
+.laptoptwo p{
+    font-size: 16px;
+}
+
+.laptoptwo .half-width .textzone{
+    padding-left: 200px;
+    text-shadow: brown;
+}
+.comparison{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(233, 232, 232);
+}
+
+.comparison h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    font-weight: 300;
+}
+.comparison h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+.comparison .half-width{
+    padding-left: 0px;
+    padding-right: 65px;
+    margin-right: 35px;
+    margin-left: 0px;
+    height: 300px;
+}
+
+.texts{
+    margin-top: 2px;
+    box-shadow: 8px 8px 30px gray;
+    border-radius: 10px;
+    width: 20%;
+    height: 250px;
+    margin-left: 200px;
+    padding-left: 90px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.texts img{
+    padding-left: 5px;
+    width: 295px;
+    height: 160px;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+.worklist{
+    margin-top: 10px;
+    padding-left: 100px;
+}
+#vivobook{
+    border-left: 6px solid;
+    border-image: linear-gradiaent(180deg, lightsalmon, tomato) ;
+    border-image-slice: 1;
+    border-left-style:groove ;
+}
+
+#zenbook{
+    border-left: 8px solid;
+    border-image: linear-gradiaent(180deg, rgb(118, 126, 202), rgb(30, 87, 161)) ;
+    border-image-slice: 1;
+    border-left-style:groove ;
+}
+
+
+.section-4{
+    background-image: url("images/Group_33094_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 200px;
+    margin-left: 290px;
+    margin-right: 25%;
+    margin-top: 80px;
+    
+}
+
+.section-4-div-text{
+    
+    width: 45%;
+    height:  80px;
+    float: left;
+    margin: 2% 2%;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.section-4-div-button{
+    width: 45%;
+    height: 80px;
+    float: left;
+    margin-top: 11%;
+    margin-left: 3%;
+}
+
+.lets-chat-button{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    background-color: #FF8367;
+    padding: 17px 27px;
+    border-radius: 5%;
+    color: white;
+    margin-top: 12%;
+    margin-left: 50%;
+}
+
+.WORK-INQUIRY{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+}
+footer p{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: #363958;
+}
+.email{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #363958;
+}
+.footertext{
+    color: aliceblue;
+    text-align: center;
+    font-size: 13px;
+    font-size: 20px;
+    font-size: large;
+}
+
+.logos{
+    text-align: center;
+}
+
+.logos img{
+    height: 30px;
+    padding-right: 20px;
 }
